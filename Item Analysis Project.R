@@ -6,8 +6,6 @@ library(       xlsx )
 
 outXLSFile <- 'Item Analysis.xlsx'
 
-setwd( '~/Dropbox/All Machines/Today/School/EDUC_684/Teaching/Homework/6. Item Analysis/' )
-
 # Read in the file the first row contains columns names (header=TRUE)
 # treat the responses as literals (stringsAsFactors=TRUE)
 df_responses <- read.table("RW.dat", header=T, stringsAsFactors=F, sep='|' )
